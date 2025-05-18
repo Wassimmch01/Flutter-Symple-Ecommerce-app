@@ -1,0 +1,47 @@
+name: ecommerce_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  flutter_rating_bar: ^4.0.1
+  google_fonts: ^6.1.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/ballon.png
+    - assets/images/basket.png
+    - assets/images/casque.png
+    - assets/images/clavier.png
+    - assets/images/desktop.png
+    - assets/images/gants.png
+    - assets/images/mac.png
+    - assets/images/pingpong.png
+    - assets/images/ps4.png
+    - assets/images/sac.png
+    - assets/font/Poppins-Bold.ttf
+    - assets/font/Poppins-Regular.ttf
+
+
